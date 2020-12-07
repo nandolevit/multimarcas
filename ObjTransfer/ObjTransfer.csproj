@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6425B823-8E78-4261-8EB2-C19911914C00}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ObjTransfer</RootNamespace>
+    <AssemblyName>ObjTransfer</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutorizadaColecao.cs" />
+    <Compile Include="AutorizadaInfo.cs" />
+    <Compile Include="CaixaAbrirColecao.cs" />
+    <Compile Include="CaixaAbrirInfo.cs" />
+    <Compile Include="CaixaDiaColecao.cs" />
+    <Compile Include="CaixaDiaInfo.cs" />
+    <Compile Include="CaixaTurnoColecao.cs" />
+    <Compile Include="CaixaTurnoInfo.cs" />
+    <Compile Include="ChatOnlineColecao.cs" />
+    <Compile Include="ChatOnlineInfo.cs" />
+    <Compile Include="CodDescricaoColecao.cs" />
+    <Compile Include="CodDescricaoInfo.cs" />
+    <Compile Include="ComputerColecao.cs" />
+    <Compile Include="ComputerInfo.cs" />
+    <Compile Include="EletroTipoColecao.cs" />
+    <Compile Include="EletroTipoInfo.cs" />
+    <Compile Include="EntradaDiversosColecao.cs" />
+    <Compile Include="EntradaDiversosInfo.cs" />
+    <Compile Include="EstoqueContarColecao.cs" />
+    <Compile Include="EstoqueContarDetalhesColecao.cs" />
+    <Compile Include="EstoqueContarDetalhesInfo.cs" />
+    <Compile Include="EstoqueContarInfo.cs" />
+    <Compile Include="EstoqueLancamentoColecao.cs" />
+    <Compile Include="EstoqueLancamentoDetalhesColecao.cs" />
+    <Compile Include="EstoqueLancamentoDetalhesInfo.cs" />
+    <Compile Include="EstoqueLancamentoInfo.cs" />
+    <Compile Include="FormaPagamentoDetalhesColecao.cs" />
+    <Compile Include="FormaPagamentoDetalhesInfo.cs" />
+    <Compile Include="FormaPagamentoPorVendaColecao.cs" />
+    <Compile Include="FormaPagamentoPorVendaInfo.cs" />
+    <Compile Include="GridClientePedidoColecao.cs" />
+    <Compile Include="GridClientePedidoInfo.cs" />
+    <Compile Include="GridConsultarServicoLista.cs" />
+    <Compile Include="GridConsultarServicoListaColecao.cs" />
+    <Compile Include="GridEntradaSaidaColecao.cs" />
+    <Compile Include="GridEntradaSaidaInfo.cs" />
+    <Compile Include="GridFormaPagamentoColecao.cs" />
+    <Compile Include="GridFormaPagamentoInfo.cs" />
+    <Compile Include="GridFormProdutoEstoqueColecao.cs" />
+    <Compile Include="GridFormProdutoEstoqueInfo.cs" />
+    <Compile Include="GridLancarEstoqueColecao.cs" />
+    <Compile Include="GridLancarEstoqueInfo.cs" />
+    <Compile Include="GridPedidoColecao.cs" />
+    <Compile Include="GridPedidoInfo.cs" />
+    <Compile Include="GridViewComissaoColecao.cs" />
+    <Compile Include="GridViewComissaoInfo.cs" />
+    <Compile Include="GridViewVendaPeriodo.cs" />
+    <Compile Include="GridViewVendaPeriodoColecao.cs" />
+    <Compile Include="LoginConvertInfo.cs" />
+    <Compile Include="MovEstoqueColecao.cs" />
+    <Compile Include="MovEstoqueInfo.cs" />
+    <Compile Include="PagamentoColecao.cs" />
+    <Compile Include="PagamentoDetalhesColecao.cs" />
+    <Compile Include="PagamentoDetalhesInfo.cs" />
+    <Compile Include="PagamentoInfo.cs" />
+    <Compile Include="PedidoDetalhesColecao.cs" />
+    <Compile Include="PedidoDetalhesInfo.cs" />
+    <Compile Include="ProdCategoriaColecao.cs" />
+    <Compile Include="ProdCategoriaInfo.cs" />
+    <Compile Include="CepInfo.cs" />
+    <Compile Include="ClienteColecao.cs" />
+    <Compile Include="ClienteInfo.cs" />
+    <Compile Include="ContagemProdColecao.cs" />
+    <Compile Include="ContagemProdInfo.cs" />
+    <Compile Include="EletroLojaColecao.cs" />
+    <Compile Include="EletroLojaInfo.cs" />
+    <Compile Include="EmpresaColecao.cs" />
+    <Compile Include="EmpresaInfo.cs" />
+    <Compile Include="EnderecoColecao.cs" />
+    <Compile Include="EnderecoInfo.cs" />
+    <Compile Include="EntradaSaidaColecao.cs" />
+    <Compile Include="EntradaSaidaInfo.cs" />
+    <Compile Include="EntradaSaidaPesquisar.cs" />
+    <Compile Include="ProdutoEstoqueColecao.cs" />
+    <Compile Include="ProdutoEstoqueInfo.cs" />
+    <Compile Include="FormaPagamentoColecao.cs" />
+    <Compile Include="FormaPagamentoInfo.cs" />
+    <Compile Include="Form_Consultar.cs" />
+    <Compile Include="Form_ConsultarColecao.cs" />
+    <Compile Include="FornecedorColecao.cs" />
+    <Compile Include="FornecedorInfo.cs" />
+    <Compile Include="FuncColecao.cs" />
+    <Compile Include="FuncInfo.cs" />
+    <Compile Include="GarantiaProdutoInfo.cs" />
+    <Compile Include="ItemPedidoColecao.cs" />
+    <Compile Include="ItemPedidoInfo.cs" />
+    <Compile Include="ItemVendaColecao.cs" />
+    <Compile Include="ItemVendaInfo.cs" />
+    <Compile Include="NotaColecao.cs" />
+    <Compile Include="NotaInfo.cs" />
+    <Compile Include="PedidoColecao.cs" />
+    <Compile Include="PedidoInfo.cs" />
+    <Compile Include="ProdEletroColecao.cs" />
+    <Compile Include="ProdEletroInfo.cs" />
+    <Compile Include="ProdStatusInfo.cs" />
+    <Compile Include="ProdStatusColecao.cs" />
+    <Compile Include="ProdutoColecao.cs" />
+    <Compile Include="ProdutoInfo.cs" />
+    <Compile Include="ProdSubCategoriaColecao.cs" />
+    <Compile Include="ProdSubCategoriaInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SangriaColecao.cs" />
+    <Compile Include="SangriaInfo.cs" />
+    <Compile Include="ServicoColecao.cs" />
+    <Compile Include="ServicoInfo.cs" />
+    <Compile Include="ServicoObsTecInfo.cs" />
+    <Compile Include="ServicoObsTecColecao.cs" />
+    <Compile Include="ServicoOrcamentoColecao.cs" />
+    <Compile Include="ServicoOrcamentoInfo.cs" />
+    <Compile Include="TipoEntradaSaidaColecao.cs" />
+    <Compile Include="TipoEntradaSaidaInfo.cs" />
+    <Compile Include="TipoServColecao.cs" />
+    <Compile Include="TipoServInfo.cs" />
+    <Compile Include="UnidadeColecao.cs" />
+    <Compile Include="UnidadeInfo.cs" />
+    <Compile Include="UserColecao.cs" />
+    <Compile Include="UserInfo.cs" />
+    <Compile Include="UserLoginColecao.cs" />
+    <Compile Include="UserLoginInfo.cs" />
+    <Compile Include="VendaCanceladaColecao.cs" />
+    <Compile Include="VendaCanceladaInfo.cs" />
+    <Compile Include="VendaColecao.cs" />
+    <Compile Include="VendaDetalhesColecao.cs" />
+    <Compile Include="VendaDetalhesInfo.cs" />
+    <Compile Include="VendaInfo.cs" />
+    <Compile Include="VFormaPagPorVendaColecao.cs" />
+    <Compile Include="VFormaPagPorVendaInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
