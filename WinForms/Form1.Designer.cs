@@ -113,12 +113,12 @@
             this.toolStripStatusLabelUsuario = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabelTime = new System.Windows.Forms.ToolStripStatusLabel();
             this.LabelRadapePrazo = new System.Windows.Forms.ToolStripStatusLabel();
-            this.notifyIconBandeja = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timerPrincipal = new System.Windows.Forms.Timer(this.components);
             this.panelPrincipal = new System.Windows.Forms.Panel();
+            this.buttonTaxa = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -142,7 +142,6 @@
             this.toolTipInforme = new System.Windows.Forms.ToolTip(this.components);
             this.panelOnline = new System.Windows.Forms.Panel();
             this.panelCentral = new System.Windows.Forms.Panel();
-            this.buttonTaxa = new System.Windows.Forms.Button();
             this.menuStripPrincipal.SuspendLayout();
             this.statusStripBarra.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
@@ -814,15 +813,6 @@
             this.LabelRadapePrazo.Size = new System.Drawing.Size(38, 17);
             this.LabelRadapePrazo.Text = "Ativo:";
             // 
-            // notifyIconBandeja
-            // 
-            this.notifyIconBandeja.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.notifyIconBandeja.BalloonTipTitle = "LevitSoft";
-            this.notifyIconBandeja.ContextMenuStrip = this.contextMenuStrip1;
-            this.notifyIconBandeja.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIconBandeja.Icon")));
-            this.notifyIconBandeja.Text = "LevitSoft";
-            this.notifyIconBandeja.Visible = true;
-            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -879,6 +869,25 @@
             this.panelPrincipal.Name = "panelPrincipal";
             this.panelPrincipal.Size = new System.Drawing.Size(1008, 100);
             this.panelPrincipal.TabIndex = 1;
+            // 
+            // buttonTaxa
+            // 
+            this.buttonTaxa.BackColor = System.Drawing.Color.Transparent;
+            this.buttonTaxa.FlatAppearance.BorderSize = 0;
+            this.buttonTaxa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonTaxa.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonTaxa.ForeColor = System.Drawing.Color.White;
+            this.buttonTaxa.Image = global::WinForms.Properties.Resources.Money_27019;
+            this.buttonTaxa.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.buttonTaxa.Location = new System.Drawing.Point(766, 3);
+            this.buttonTaxa.Name = "buttonTaxa";
+            this.buttonTaxa.Size = new System.Drawing.Size(70, 70);
+            this.buttonTaxa.TabIndex = 20;
+            this.buttonTaxa.Text = "Taxa";
+            this.buttonTaxa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.toolTipInforme.SetToolTip(this.buttonTaxa, "Alterar Senha");
+            this.buttonTaxa.UseVisualStyleBackColor = false;
+            this.buttonTaxa.Click += new System.EventHandler(this.buttonTaxa_Click);
             // 
             // label7
             // 
@@ -1205,25 +1214,6 @@
             this.panelCentral.Size = new System.Drawing.Size(793, 583);
             this.panelCentral.TabIndex = 5;
             // 
-            // buttonTaxa
-            // 
-            this.buttonTaxa.BackColor = System.Drawing.Color.Transparent;
-            this.buttonTaxa.FlatAppearance.BorderSize = 0;
-            this.buttonTaxa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonTaxa.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonTaxa.ForeColor = System.Drawing.Color.White;
-            this.buttonTaxa.Image = global::WinForms.Properties.Resources.Money_27019;
-            this.buttonTaxa.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.buttonTaxa.Location = new System.Drawing.Point(766, 3);
-            this.buttonTaxa.Name = "buttonTaxa";
-            this.buttonTaxa.Size = new System.Drawing.Size(70, 70);
-            this.buttonTaxa.TabIndex = 20;
-            this.buttonTaxa.Text = "Taxa";
-            this.buttonTaxa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.toolTipInforme.SetToolTip(this.buttonTaxa, "Alterar Senha");
-            this.buttonTaxa.UseVisualStyleBackColor = false;
-            this.buttonTaxa.Click += new System.EventHandler(this.buttonTaxa_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1280,7 +1270,6 @@
         private System.Windows.Forms.ToolStripMenuItem MenuItemProduto;
         private System.Windows.Forms.ToolStripMenuItem MenuItemEstoque;
         private System.Windows.Forms.ToolStripMenuItem MenuItemContagemEstoque;
-        private System.Windows.Forms.NotifyIcon notifyIconBandeja;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem abrirToolStripMenuItem;
