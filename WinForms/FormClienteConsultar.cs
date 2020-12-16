@@ -62,7 +62,7 @@ namespace WinForms
             this.Activate();
             PreencherGrid();
         }
-        
+
         private void PreencherGrid()
         {
             if (colecaoCliente != null)
@@ -109,11 +109,15 @@ namespace WinForms
             if (modSelect)
                 DialogResult = DialogResult.Yes;
             else
+            {
+                using (FormCadastroPessoa formCadastroPessoa = new FormCadastroPessoa(infoCliente))
                 {
-                    FormCadastroPessoa formCadastroPessoa = new FormCadastroPessoa(infoCliente);
-                    formCadastroPessoa.ShowDialog(this);
-                    formCadastroPessoa.Dispose();
+                    if(formCadastroPessoa.ShowDialog(this)== DialogResult.Yes)
+                    {
+                        RealizarPesquisa();
+                    }
                 }
+            }
         }
 
         private void Selecionado()
