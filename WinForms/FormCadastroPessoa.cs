@@ -270,7 +270,6 @@ namespace WinForms
                     PreencherClienteInfo();
                     SalvarThread();
                     
-
                     if (idSave > 0)
                     {
 
@@ -296,13 +295,23 @@ namespace WinForms
                         //formProdutoDefeito.Dispose();
                     }
 
-                    this.Close();
+                    this.DialogResult = DialogResult.Yes;
                 }
                 else
                 {
                     if (FormMessage.ShowMessegeQuestion("Deseja salvar as alterações?") == DialogResult.Yes)
                     {
+                        int id = infoCliente.cliid;
 
+                        PreencherClienteInfo();
+                        infoCliente.cliid = id;
+                        if (clienteNegocios.Alterar(infoCliente))
+                        {
+                            FormMessage.ShowMessegeInfo("Registro alterado com sucesso!");
+                            this.DialogResult = DialogResult.Yes;
+                        }
+                        else
+                            FormMessage.ShowMessegeWarning("Falha ao tentar salvar!");
                     }
                 }
             }
