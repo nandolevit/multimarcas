@@ -21,12 +21,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_0863A1D859194E71984595577455AB91"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_2441DC30273C6B4D9A51CCBEA0881708"
         "OwnerKey" = "8:_4FDF2E1DB5D55242B213033BF8AF2637"
         "MsmSig" = "8:_UNDEFINED"
@@ -81,8 +75,26 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_6E1318349B95B4C6825D60FBC0F737C8"
+        "OwnerKey" = "8:_5BDAE9758F654194B51EEB9797F70D62"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A32875B8EF7645CC8EB24B650C8CF2E8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_AF11CD3F97B5407ECA785AB2B4FD75DD"
         "OwnerKey" = "8:_5BDAE9758F654194B51EEB9797F70D62"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B343739D976BD0E8097020E580F2CAB7"
+        "OwnerKey" = "8:_4FDF2E1DB5D55242B213033BF8AF2637"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -141,18 +153,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_E9EAD8C6AEF22668A285CA7C2B0ACC23"
-        "OwnerKey" = "8:_5BDAE9758F654194B51EEB9797F70D62"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E9EAD8C6AEF22668A285CA7C2B0ACC23"
-        "OwnerKey" = "8:_4FDF2E1DB5D55242B213033BF8AF2637"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_F39B5326E040C76B1697107BF1BADE40"
         "OwnerKey" = "8:_5BDAE9758F654194B51EEB9797F70D62"
         "MsmSig" = "8:_UNDEFINED"
@@ -166,25 +166,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_AF11CD3F97B5407ECA785AB2B4FD75DD"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4FDF2E1DB5D55242B213033BF8AF2637"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_B7F5CB83F3FE37379D91561B1499D735"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2441DC30273C6B4D9A51CCBEA0881708"
+        "OwnerKey" = "8:_6E1318349B95B4C6825D60FBC0F737C8"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -226,7 +208,31 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E9EAD8C6AEF22668A285CA7C2B0ACC23"
+        "OwnerKey" = "8:_AF11CD3F97B5407ECA785AB2B4FD75DD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_4FDF2E1DB5D55242B213033BF8AF2637"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_B7F5CB83F3FE37379D91561B1499D735"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_B343739D976BD0E8097020E580F2CAB7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_2441DC30273C6B4D9A51CCBEA0881708"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -371,26 +377,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0863A1D859194E71984595577455AB91"
-            {
-            "SourcePath" = "8:C:\\Users\\nando\\Pictures\\icons8_Washing_Machine.ico"
-            "TargetName" = "8:icons8_Washing_Machine.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_314D9D19CA204344ADA3FBDABC3DF75F"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2441DC30273C6B4D9A51CCBEA0881708"
             {
             "AssemblyRegister" = "3:1"
@@ -515,6 +501,57 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6E1318349B95B4C6825D60FBC0F737C8"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:MySql.Data, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_6E1318349B95B4C6825D60FBC0F737C8"
+                    {
+                    "Name" = "8:MySql.Data.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:MySql.Data.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_314D9D19CA204344ADA3FBDABC3DF75F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A32875B8EF7645CC8EB24B650C8CF2E8"
+            {
+            "SourcePath" = "8:..\\WinForms\\Resources\\icons8_Washing_Machine.ico"
+            "TargetName" = "8:icons8_Washing_Machine.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_314D9D19CA204344ADA3FBDABC3DF75F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AF11CD3F97B5407ECA785AB2B4FD75DD"
             {
             "AssemblyRegister" = "3:1"
@@ -529,6 +566,37 @@
                     }
                 }
             "SourcePath" = "8:Negocios.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_314D9D19CA204344ADA3FBDABC3DF75F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B343739D976BD0E8097020E580F2CAB7"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:MySql.Data, Version=6.10.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_B343739D976BD0E8097020E580F2CAB7"
+                    {
+                    "Name" = "8:MySql.Data.DLL"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:MySql.Data.DLL"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_314D9D19CA204344ADA3FBDABC3DF75F"
@@ -653,37 +721,6 @@
                     }
                 }
             "SourcePath" = "8:Microsoft.SqlServer.Types.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_314D9D19CA204344ADA3FBDABC3DF75F"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E9EAD8C6AEF22668A285CA7C2B0ACC23"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:MySql.Data, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_E9EAD8C6AEF22668A285CA7C2B0ACC23"
-                    {
-                    "Name" = "8:MySql.Data.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:MySql.Data.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_314D9D19CA204344ADA3FBDABC3DF75F"
@@ -920,7 +957,7 @@
             "Target" = "8:_5BDAE9758F654194B51EEB9797F70D62"
             "Folder" = "8:_C3DCF1612A98467299442D48343B4B1B"
             "WorkingFolder" = "8:_314D9D19CA204344ADA3FBDABC3DF75F"
-            "Icon" = "8:_0863A1D859194E71984595577455AB91"
+            "Icon" = "8:_A32875B8EF7645CC8EB24B650C8CF2E8"
             "Feature" = "8:"
             }
         }
